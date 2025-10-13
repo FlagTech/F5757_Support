@@ -238,7 +238,7 @@
 
 #### 透過 Node.js 環境安裝 Claude Code
 
-> [!TIPS]
+> [!TIP]
 > 除非安裝原生版本有問題，否則不需要在安裝 Node.js 版本的 Claude Code。
 
 ```
