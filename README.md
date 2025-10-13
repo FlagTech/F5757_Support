@@ -31,12 +31,12 @@
     where.exe bash
     ```
 
-    > [!TIP]
-    > 如果想要直接在命令行設定 `CLAUDE_CODE_GIT_BASH_PATH` 環境變數，可以如下下達指令：
-    >
-    > ```
-    >  [Environment]::SetEnvironmentVariable("CLAUDE_CODE_GIT_BASH_PATH", "$home\scoop\shims\bash.exe", "user")
-    > ```
+> [!TIP]
+> 如果想要直接在命令行設定 `CLAUDE_CODE_GIT_BASH_PATH` 環境變數，可以如下下達指令：
+>
+> ```
+>  [Environment]::SetEnvironmentVariable("CLAUDE_CODE_GIT_BASH_PATH", "$home\scoop\shims\bash.exe", "user")
+> ```
 
 - 安裝原生版本的 Claude Code
 
@@ -44,12 +44,12 @@
     irm https://claude.ai/install.ps1 | iex
     ```
 
-    > [!TIP]
-    > 如果要透過命令列直接設定 PATH 環境變數，可如下下達指令：
-    > 
-    > ```
-    > [Environment]::SetEnvironmentVariable( "PATH", "$home\.local\bin" + [Environment]::GetEnvironmentVariable('PATH', 'user'), 'user')
-    > ```
+> [!TIP]
+> 如果要透過命令列直接設定 PATH 環境變數，可如下下達指令：
+> 
+> ```
+> [Environment]::SetEnvironmentVariable( "PATH", "$home\.local\bin" + [Environment]::GetEnvironmentVariable('PATH', 'user'), 'user')
+> ```
 
 ### 1-3 在 WSL（Linux/macOS）中安裝 Claude Code
 
